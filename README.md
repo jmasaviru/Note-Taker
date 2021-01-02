@@ -1,6 +1,6 @@
 # Note-Taker
 ## Description
-An application that can be used to write and save notes. It also alows the user to delete previously saved notes. This application uses an Express backend and saves and retrieves note data from a JSON file.
+An application that can be used to write and save notes. It also alows the user to delete previously saved notes. This application uses an Express back-end and saves and retrieves note data from a JSON file.
 
 ## Table of Contents
   1. [Technologies](#technologies)
@@ -37,6 +37,8 @@ An application that can be used to write and save notes. It also alows the user 
 ## Links
 
 * Video link for demonstration : 
+
+* Note Taker URL:
 
 * Note Taker GitHub repository URL: https://github.com/jmasaviru/Note-Taker
 
