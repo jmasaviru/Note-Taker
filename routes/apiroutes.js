@@ -17,13 +17,13 @@ module.exports = app => {
         var newNote = req.body
         // Push the new note to the JSON file        
         db.push(newNote);
-        // Write note to db
+        // Write note to db.JSON
         fs.writeFile("./db/db.json", JSON.stringify(db), (err) => {
             if (err) throw err;
-            // else send the response
+            // else send the response 
+            res.json(db);
             console.log("note written to db");
-        });
-        res.json(db);
+        });   
     });
 
     // API DELETE to delete notes
@@ -35,8 +35,10 @@ module.exports = app => {
                 console.log("note deleted from db");
             };
         }
+        // Write the new db to the file 
         fs.writeFile("./db/db.json", JSON.stringify(db), (err) => {
             if (err) throw err;
+            // else send the response
             res.json(db);
         });
         
