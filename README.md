@@ -13,16 +13,17 @@ An application that can be used to write and save notes. It also alows the user 
 
   * HTML
   * CSS
+  * Express
+  * Heroku
   * JavaScript
   * JSON
-  * Heroku
-  * Express
-  * Postman
+  
+  
 
   ## Usage
-  The user should first install the application by cloning the repository onto their machine by running the `git clone` command, and then run `npm install` to install the required dependencies.
-  The user can use the application locally by navigating to the folder where it is contained then run `node server.js`. 
-  The user can also run the live application through the [Heroku link](https://drive.google.com/file/d/1Ob4HVX32I9472QiMMOGGnfixKS5k8iub/view) provided.
+  The user can run the live application through the [Heroku link](https://drive.google.com/file/d/1Ob4HVX32I9472QiMMOGGnfixKS5k8iub/view) provided.
+  The user can also run the application locally by first installing the application by cloning the repository onto their machine by running the `git clone` command, and then run `npm install` to install the required dependencies. The user should then navigate on the terminal to the folder where it is contained then run `node server.js`. 
+  
 
   ![Generated Menu Screenshot](/public/Assets/images/sample.jpg)
 
